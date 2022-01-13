@@ -4,9 +4,6 @@
 	margin: 0;
 	font-family: 'Roboto', sans-serif;
 }
-html {
-	height: 100%;
-}
 
 body {
 	background-image: linear-gradient(
@@ -90,6 +87,10 @@ body {
 }
 
 @media screen and (min-width: 1000px) {
+	html {
+		height: 100%;
+	}
+
 	.projects__container {
 		grid-template-columns: repeat(3, 1fr);
 	}
