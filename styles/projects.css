@@ -67,6 +67,10 @@ body {
 	max-height: 100%;
 }
 
+.hidden {
+	display: none;
+}
+
 @media screen and (min-height: 760px) {
 	.projects__container__div {
 		height: 35vh;
@@ -79,6 +83,10 @@ body {
 }
 
 @media screen and (min-width: 700px) {
+	html {
+		height: 100%;
+	}
+
 	.projects__container {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
